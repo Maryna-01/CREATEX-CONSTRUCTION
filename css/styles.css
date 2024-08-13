@@ -1,0 +1,121 @@
+:root {
+	--white: #fff;
+	--primary: #ff5a30;
+	--success: #03cea4;
+	--danger: #ff4242;
+	--warning: #f89828;
+	--info: #5a87fc;
+	--gray-900: #1e212c;
+	--gray-800: #424551;
+	--gray-700: #787a80;
+	--gray-600: #9a9ca5;
+	--gray-500: #b3b7bc;
+	--gray-400: #d7dadd;
+	--gray-300: #e5e8ed;
+	--gray-200: #f4f5f6;
+	--gray-100: #f9f9f9;
+
+  --font-family: "Ubuntu", sans-serif;
+  --second-family: "Lato", sans-serif;
+}
+
+header{
+    width: 1920px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px ;
+    background-color: fff;
+    /* border-bottom: 1px solid #ddd; */
+}
+.logo{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    display: flex;
+    margin-right: 20px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            font-weight: 700;
+}
+.menu-link{
+   padding: 40px;
+}
+.menu-header{
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+color: var(--gray-800);
+}
+
+.contact-info{
+    display: flex;
+}
+.list-info{
+padding: 36px;
+}
+
+.contact-list{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: var(--gray-900);
+}
+
+/* =============HERO========== */
+.hero{
+    position: relative;
+    width: 1920px;
+    height: 988px;
+    background-image: rgba(30, 33, 44, 0.6), url('..//img/bg-image-min.jpg');
+    background-size: cover;
+    background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+}
+span{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+/* color: var(--gray-800);тимчасово */
+}
+.title{
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 72px;
+line-height: 130%;
+letter-spacing: 0.01em;
+/* color: var(--white); тимчасово */
+}
+.buttons{
+    padding: 61px;
+    
+}
+
+.btn-about{
+border: 1px solid var(--white);
+border-radius: 4px;
+padding: 0px 40px;
+width: 278px;
+height: 52px;
+}
+.btn-request{
+border-radius: 4px;
+padding: 0px 40px;
+width: 224px;
+height: 52px;
+background: var(--primary);
+border:none;
+}
